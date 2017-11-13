@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <mat-toolbar color="primary">
+    <span><mat-icon>mood</mat-icon></span>
+
+    <span>{{title}}</span>
+
+    <button mat-icon-button [mat-menu-trigger-for]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+  </mat-toolbar>
+  <mat-menu x-position="before" #menu="matMenu">
+    <button mat-menu-item>Andriod</button>
+    <button mat-menu-item>iOS</button>
+    <button mat-menu-item>Web</button>
+  </mat-menu>
+
+  <mat-card>
+    <button mat-button>Basic</button>
+    <button mat-raised-button>Raised</button>
+    <button mat-raised-button color="primary">Primary</button>
+    <button mat-raised-button color="accent">Accent</button>
+  </mat-card>
+
+  <span class="done">
+    <button mat-fab>
+      <mat-icon>check circle</mat-icon>
+    </button>
+  </span>
+</div>
