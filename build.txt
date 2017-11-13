@@ -1,0 +1,32 @@
+﻿ng new angular-material-quickstart
+
+cd angular-material-quickstart
+
+ng serve --open
+
+Step 1: Install Angular Material and Angular CDK
+
+npm install --save @angular/material @angular/cdk
+
+Step 2: Animations
+
+npm install --save @angular/animations
+
+Step 3: Import the component modules
+
+Step 4: Include a theme
+
+styles.css
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+Step 5: Gesture Support
+
+npm install --save hammerjs
+
+src/main.ts
+import 'hammerjs';
+
+ Step 6 (Optional): Add Material Icons
+
+index.html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
